@@ -1,0 +1,34 @@
+namespace: dev
+
+services:
+  config-server:
+    image:
+      tag: e3630ba
+
+  discovery-server:
+    image:
+      tag: c008b11
+
+  admin-server:
+    image:
+      tag: c008b11
+
+  customers-service:
+    image:
+      tag: e3630ba
+
+  visits-service:
+    image:
+      tag: e3630ba
+
+  vets-service:
+    image:
+      tag: e3630ba
+
+  genai-service:
+    image:
+      tag: e3630ba
+
+  api-gateway:
+    image:
+      tag: e3630ba
